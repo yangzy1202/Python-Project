@@ -1,6 +1,6 @@
 # Python-Group-01
 
-+ 请先在`dev`分支完成工作，定期`merge`
++ 请大家这此分支下工作，可以在本地自己另建一个 dev-username 分支，每次修改完成后push到dev分支。
 
 + `src`文件夹放置爬虫程序和数据
 
