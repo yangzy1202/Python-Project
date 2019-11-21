@@ -1,0 +1,10 @@
+html, body, #container {
+    height: 100%;
+    width: 100%;
+}
+/*为地图容器指定高度、宽度比例*/
+
+.btn{
+    margin-left: 0.5rem;
+    width:4rem;
+}
