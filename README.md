@@ -1,17 +1,19 @@
 # Python-Group-01
 
-+ 请大家这此分支下工作，可以在本地自己另建一个 dev-username 分支，定期merge。
-
++ **样例文件放在`demo`文件夹里：**
+  - py文件是python爬虫代码；
+  - csv文件是爬虫结果文件（房源信息）；
+  - html是最终网页的代码。
 + `src`文件夹放置爬虫程序和数据
 + `web`文件夹放置网页的相关内容
 
-> - py文件是python爬虫代码；
-> - csv文件是爬虫结果文件（房源信息）；
-> - html是最终网页的代码。
-
-> **参考文档：**
-> - [高德 JavaScript API 帮助文档](http://lbs.amap.com/api/javascript-api/summary/)
-> - [高德 JavaScript API 示例中心](https://lbs.amap.com/demo-center/js-api)
-> - [Requests: HTTP for Humans](http://www.python-requests.org/en/master/)
-> - [Beautiful Soup 4.2.0 文档](https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/)
+> **注意：**由于代码涉及到了异步请求，在本地测试代码时需要先打开一个本地web服务器
+>
+> **使用方法**如下：
+>
+> 1. 安装 **Python 3**；
+> 2. 打开终端，使用`cd`命令导航到文件所在目录；
+> 3. 输入命令 `python -m http.server`启动服务器；
+> 4. 默认情况下，这将在Web服务器上的`端口8000`上运行目录的内容，在浏览器中使用`localhost:8000`访问此服务器，在这里可以看到列出的目录的内容，点击需要测试的HTML 文件即可。
+> 5. 如果已经在`端口8000`上运行了某些东西，则可以通过运行`server`命令，然后选择另一个端口号（例如`python -m http.server 7800`，然后在浏览器中使用`localhost:7800`访问此服务器。
 
